@@ -1,38 +1,54 @@
-.App {
+/* .App {
   text-align: center;
+} */
+.Heading {
+  font-family: Comic Sans MS;
+  margin: 20px 10px 0px 113px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.CoffeeCupImage {
+  float: right;
+  margin-top: 90px;
+  margin-right: -80px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ToDo {
+  float: left;
+  background-color: aliceblue;
+  width: 40%;
+  margin: 50px 50px 50px 70px;
+  height: 520px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.AddTask {
+  margin: 0px 10px 10px 115px;
 }
-
-.App-link {
-  color: #61dafb;
+.Input {
+  border-radius: 16px;
+  padding: 13px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.AddButton {
+  width: 56px;
+  height: 96x;
+  margin: 25px 15px 15px 15px;
+  background-color: #272343;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 8px 6px 6px 6px;
+  border-radius: 5px;
+}
+.TaskList {
+  list-style-type: none;
+  width: 40%;
+  float: left;
+  border-bottom-style: black;
+}
+.List {
+  margin: 15px 10px 10px 75px;
+}
+.EditButton {
+  background-color: #272343;
+  color: whitesmoke;
+  margin: 0px -45px 0px 78px;
+}
+.Pencil {
+  width: 40%;
 }
